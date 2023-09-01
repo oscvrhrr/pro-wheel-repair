@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+background-color: black;
+color: white;
+margin: 0 0;
+}
+
+h1 {
+    font-size: 1.125rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.875rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    font-family: sans-serif
+}
+
+strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #FF9500;
+    color: white;
+    border:none;
+    border-radius: 3px;
+    padding: .45rem 2.25rem;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    position: relative;
+
+}
+
+.hero-banner {
+    min-height: 5rem;
+    min-width: 100%;
+    background-color: hsla(0, 0%, 100%, .3);
+    position: absolute;
+    top: 38%;
+    text-align: center;
+
+}
+
+.hero-title {
+    font-weight: 500;
+    color: #fff;
+    padding: .75rem 0;
+}
+
+.section-title {
+    font-weight: 500;
+    display: block;
+    margin: 1rem 2rem 0 2rem;
+    color: #6C757D;
+}
+
+.section-description {
+    display: block;
+    margin: .5rem 2rem;
+    font-size: .625rem;
+    color: #6C757D;
+}
+
+.section-card {
+    min-height: 18.75rem;
+    max-width: 15.625rem;
+    background-color: #CED4DA;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+}

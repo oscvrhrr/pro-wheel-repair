@@ -117,7 +117,7 @@ nav a {
 }
 
 .hero {
-    background-image: url("/img/hero.png");
+    background-image: url("../img/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ nav a {
 }
 
 .company-policy {
-    background-image: url("/img/promise-image.png");
+    background-image: url("../img/promise-image.png");
     background-size: cover;
     background-position: center;
     min-height: 21.875rem;

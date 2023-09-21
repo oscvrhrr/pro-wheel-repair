@@ -100,17 +100,17 @@ nav a {
     background-color: #CD0000;
     color: white;
     border:none;
-    border-radius: 3px;
-    padding: .45rem 2.25rem;
+    border-radius: 4px;
+    padding: .60rem 2.25rem;
 }
 
 .cta-button-card {
     background-color: #CD0000;
     color: white;
     border:none;
-    border-radius: 3px;
-    padding: .45rem 1.25rem;
-    margin: 2rem 2.75rem;
+    border-radius: 4px;
+    padding: .75rem 1.25rem;
+    margin: 2rem 2.75rem 2rem 4.75rem;
 
 
     
@@ -164,7 +164,7 @@ nav a {
 
 .section-card {
     min-height: 18.75rem;
-    max-width: 15.625rem;
+    max-width: 19.625rem;
     background-color: #CED4DA;
     margin: 2rem auto;
     border-radius: 10px;
@@ -187,8 +187,8 @@ nav a {
 }
 
 .company-policy__banner {
-    max-height: 12.5rem;
-    min-height: 12.5rem;
+    max-height: 14.5rem;
+    min-height: 14.5rem;
     min-width: 17.5rem;
     max-width: 17.5rem;
     margin: 2rem auto;

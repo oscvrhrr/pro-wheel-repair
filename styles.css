@@ -76,6 +76,10 @@ nav a {
     text-transform: uppercase;
 }
 
+.logo {
+    color: #fff;
+
+}
 .nav-toggle-label {
     position: absolute;
     left: 0;
@@ -171,9 +175,66 @@ nav a {
 }
 
 .flex-container {
-    display: flex;
+    display: flex
+
 
 }
+
+/*  slider syles*/
+.carousel-container {
+    display: grid;
+    place-items: center;
+}
+
+
+.carousel {
+padding-bottom: 15rem;
+min-width: 20rem;
+max-width: 20rem;
+margin: 2rem 0;
+position: relative;
+
+
+
+}
+
+.slide {
+position: absolute;
+inset: 0;
+opacity: 0;
+
+}
+
+.slide[data-active] {
+    opacity: 1;
+
+}
+
+.slide > img {
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+
+}
+
+.carousel-btn {
+    position: absolute;
+    z-index: 2;
+    bottom: 50%;
+
+}
+
+.prev {
+    left: .5rem;
+}
+
+.next {
+    right: .5rem;
+}
+
 
 .company-policy {
     background-image: url("./img/promise-image.png");
@@ -184,6 +245,7 @@ nav a {
     display: flex;
     justify-content: center;
     font-size: 12px;
+
 }
 
 .company-policy__banner {

@@ -45,7 +45,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
-    min-height: 4rem;
+    min-height: 6rem;
 }
 
 nav {
@@ -122,26 +122,24 @@ nav a {
 
 .hero {
     background-image: url("./img/hero.png");
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 20rem;
+    min-height: 35rem;
     position: relative;
 
 }
 
 .hero-banner {
-    min-height: 5rem;
+    min-height: 10rem;
     min-width: 100%;
-    background-color: hsla(0, 0%, 100%, .3);
     position: absolute;
-    top: 38%;
+    top: 43%;
     text-align: center;
 
 }
 
 .hero-title {
-    font-weight: 500;
+    font-weight: 700;
     color: #fff;
     padding: .75rem 0;
 }

@@ -105,7 +105,7 @@ nav a {
     color: white;
     border:none;
     border-radius: 4px;
-    padding: .60rem 2.25rem;
+    padding: 1rem 2.25rem;
 }
 
 .cta-button-card {
@@ -124,7 +124,7 @@ nav a {
     background-image: url("./img/hero.png");
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 35rem;
+    min-height: 40rem;
     position: relative;
 
 }
@@ -133,7 +133,7 @@ nav a {
     min-height: 10rem;
     min-width: 100%;
     position: absolute;
-    top: 43%;
+    top: 45%;
     text-align: center;
 
 }

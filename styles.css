@@ -122,8 +122,8 @@ nav a {
 }
 
 .hero {
-    background-image: url("./img/hero.png");
-    background-position: center;
+    background-image: url("/testpic.webp");
+    background-position: ;
     background-repeat: no-repeat;
     min-height: 40rem;
     position: relative;
@@ -227,6 +227,7 @@ opacity: 0;
     min-height: 16rem;
     max-height: 16rem;
     width: 100%;
+    box-shadow: 2px 2px 4px gray;
     
 
 }
@@ -234,7 +235,7 @@ opacity: 0;
 .carousel-btn {
     position: absolute;
     z-index: 2;
-    bottom: 40%;
+    bottom: 55%;
 
 }
 
@@ -248,7 +249,7 @@ opacity: 0;
 
 
 .company-policy {
-    background-image: url("./img/promise-image.png");
+    background-image: url("/test-policy.avif");
     background-size: cover;
     background-position: center;
     min-height: 35rem;

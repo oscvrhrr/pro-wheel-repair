@@ -109,17 +109,20 @@ header {
     background-color: #CD0000;
     color: white;
     border:none;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .cta-button-card {
     background-color: #CD0000;
     color: white;
     border:none;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: .75rem 1.25rem;
     margin: 2rem 2.75rem 2rem 4.75rem;
+    
 
 
     
@@ -146,7 +149,8 @@ header {
 .hero-title {
     font-weight: 700;
     color: #fff;
-    padding: .75rem 0;
+    padding: 0.75rem 0 2.25rem 0;
+    font-size: 1.75rem;
 }
 
 .section-title {

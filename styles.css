@@ -122,7 +122,7 @@ nav a {
 }
 
 .hero {
-    background-image: url("/testpic.webp");
+    background-image: url("./img/testpic.jpeg");
     background-position: ;
     background-repeat: no-repeat;
     min-height: 40rem;
@@ -249,7 +249,7 @@ opacity: 0;
 
 
 .company-policy {
-    background-image: url("/test-policy.avif");
+    background-image: url("./img/test-policy.jpeg");
     background-size: cover;
     background-position: center;
     min-height: 35rem;

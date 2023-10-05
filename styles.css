@@ -71,6 +71,19 @@ header {
 
 }
 
+.nav-menu li {
+    text-align: left;
+    list-style: none;
+    padding: 0.25rem 0 0.35rem 1rem;
+}
+
+.nav-menu {
+    position: absolute;
+    width: 100%;
+    top: 7rem;
+    background-color: hsla(0, 0%, 0%, 1);
+
+}
 
 .nav-bar {
     display: flex;
@@ -114,9 +127,9 @@ header {
 
 .hero {
     background-image: url("./img/testpic.jpeg");
-    background-position: ;
+    background-position:left ;
     background-repeat: no-repeat;
-    min-height: 40rem;
+    min-height: 53rem;
     position: relative;
 
 }
